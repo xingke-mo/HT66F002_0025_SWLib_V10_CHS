@@ -1,0 +1,122 @@
+
+Linker Version 8.7.7.181026
+Input Object File: F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_IT.OBJ
+Input Object File: F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ
+Input Object File: F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\MAIN.OBJ
+
+Input Library File: D:\HT-IDE3000V7.x\LIB\MATH6.LIB
+Input Library File: D:\HT-IDE3000V7.x\LIB\time_mrsc.lib
+Input Library File: D:\HT-IDE3000V7.x\LIB\ctype_mrsc.lib
+Input Library File: D:\HT-IDE3000V7.x\LIB\math_mrsc.lib
+Input Library File: D:\HT-IDE3000V7.x\LIB\stdlib_mrsc.lib
+Input Library File: D:\HT-IDE3000V7.x\LIB\string_mrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0002h    0003h      CODE               @CODE (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\MAIN.OBJ)
+     00h     0003h     0003h    0001h      CODE               STARTSEC (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\MAIN.OBJ)
+     00h     0004h     0004h    0001h      CODE               @@INT_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_IT.OBJ)
+     00h     0005h     0007h    0003h      CODE               @STM_SinglePulseOutputConfig (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ)
+     00h     0008h     0008h    0001h      CODE               @@TB0_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_IT.OBJ)
+     00h     0009h     000bh    0003h      CODE               @STM_CompareMatchOutputConfig (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ)
+     00h     000ch     000ch    0001h      CODE               @@TB1_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_IT.OBJ)
+     00h     0010h     0010h    0001h      CODE               @@Timer_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_IT.OBJ)
+     00h     0014h     0014h    0001h      CODE               @@EEPROM_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_IT.OBJ)
+     00h     0018h     0018h    0001h      CODE               @@ADC_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_IT.OBJ)
+     00h     0019h     0026h    000eh      CODE               __DELAY (D:\HT-IDE3000V7.x\LIB\MATH6.LIB)
+     00h     0027h     0033h    000dh      CODE               @STM_Init (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ)
+     00h     0034h     0039h    0006h      CODE               @STM_PwmOutputConfig (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ)
+     00h     003ah     0065h    002ch      CODE               @STM_PwmUpdate (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ)
+     00h     0066h     0073h    000eh      CODE               @STM_SinglePulseUpdate (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ)
+     00h     0074h     0081h    000eh      CODE               @STM_CounterModeConfig (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ)
+     00h     0082h     008fh    000eh      CODE               @STM_CompareMatchOutputUpdate (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ)
+     00h     0090h     00bch    002dh      CODE               @MAIN (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\MAIN.OBJ)
+     00h     0040h     0040h    0001h      DATA     2         CTMPDATA (D:\HT-IDE3000V7.x\LIB\MATH6.LIB)
+     00h     0047h     0048h    0002h      DATA     0         @g_nCCRP (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\MAIN.OBJ)
+     00h     0049h     004ah    0002h      DATA     0         @g_nCCRA (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\MAIN.OBJ)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0047h     0047h    0000h      LOCAL    0         @DUMMY (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\MAIN.OBJ)
+     00h     0046h     0046h    0001h      LOCAL    2         _main (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\MAIN.OBJ)
+     00h     0041h     0041h    0000h      LOCAL    0         _STM_Init (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ)
+     00h     0041h     0041h    0000h      LOCAL    0         _STM_PwmOutputConfig (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ)
+     00h     0041h     0045h    0005h      LOCAL    4.8       _STM_PwmUpdate (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ)
+
+     Indepentent Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0041h     0041h    0000h      ILOCAL   0         _STM_SinglePulseOutputConfig (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ)
+     00h     0041h     0044h    0004h      ILOCAL   2.25      _STM_SinglePulseUpdate (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ)
+     00h     0041h     0044h    0004h      ILOCAL   2.25      _STM_CounterModeConfig (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ)
+     00h     0041h     0041h    0000h      ILOCAL   0         _STM_CompareMatchOutputConfig (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ)
+     00h     0041h     0044h    0004h      ILOCAL   2.25      _STM_CompareMatchOutputUpdate (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\HT8_STM.OBJ)
+     00h     0041h     0041h    0000h      ILOCAL   0         __DELAYY (D:\HT-IDE3000V7.x\LIB\MATH6.LIB)
+
+     Public Symbols Information
+     Address            Public by Name
+     0040h              RH
+     0041h              STM_PwmUpdate0
+     0043h              STM_PwmUpdate1
+     0009h              _STM_CompareMatchOutputConfig
+     0082h              _STM_CompareMatchOutputUpdate
+     0074h              _STM_CounterModeConfig
+     0027h              _STM_Init
+     0034h              _STM_PwmOutputConfig
+     003ah              _STM_PwmUpdate
+     0005h              _STM_SinglePulseOutputConfig
+     0066h              _STM_SinglePulseUpdate
+     001eh              __DELAYY0
+     001dh              __DELAYY1
+     001ch              __DELAYY2
+     001bh              __DELAYY3
+     001ah              __DELAYY4
+     0019h              __DELAYY5
+     0049h              _g_nCCRA
+     0047h              _g_nCCRP
+
+     Address            Public by Value
+     0005h              _STM_SinglePulseOutputConfig
+     0009h              _STM_CompareMatchOutputConfig
+     0019h              __DELAYY5
+     001ah              __DELAYY4
+     001bh              __DELAYY3
+     001ch              __DELAYY2
+     001dh              __DELAYY1
+     001eh              __DELAYY0
+     0027h              _STM_Init
+     0034h              _STM_PwmOutputConfig
+     003ah              _STM_PwmUpdate
+     0040h              RH
+     0041h              STM_PwmUpdate0
+     0043h              STM_PwmUpdate1
+     0047h              _g_nCCRP
+     0049h              _g_nCCRA
+     0066h              _STM_SinglePulseUpdate
+     0074h              _STM_CounterModeConfig
+     0082h              _STM_CompareMatchOutputUpdate
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     0800h     00b4h    8%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0040h     000bh    17%
+     Total     0040h     000bh    17%
+
+Use Stack Count
+_main: 1
+
+Call Tree
+    @DUMMY
+        _main (0)
+            _STM_Init (1)
+            _STM_PwmOutputConfig (1)
+            _STM_PwmUpdate (1)
+
+HLINK: Program entry point at section '@CODE' (address 0) of file 'F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\STM\software_library_STM_PWM_Output_example_V1.0_0312\Output\MAIN.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)

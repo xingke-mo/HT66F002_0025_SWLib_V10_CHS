@@ -1,0 +1,124 @@
+
+Linker Version 8.7.7.181026
+Input Object File: F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_ADC.OBJ
+Input Object File: F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_IT.OBJ
+Input Object File: F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_SIMULATION_UART.OBJ
+Input Object File: F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\MAIN.OBJ
+
+Input Library File: D:\HT-IDE3000V7.x\LIB\MATH6.LIB
+Input Library File: D:\HT-IDE3000V7.x\LIB\time_mrsc.lib
+Input Library File: D:\HT-IDE3000V7.x\LIB\ctype_mrsc.lib
+Input Library File: D:\HT-IDE3000V7.x\LIB\math_mrsc.lib
+Input Library File: D:\HT-IDE3000V7.x\LIB\stdlib_mrsc.lib
+Input Library File: D:\HT-IDE3000V7.x\LIB\string_mrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0002h    0003h      CODE               @CODE (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\MAIN.OBJ)
+     00h     0003h     0003h    0001h      CODE               STARTSEC (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\MAIN.OBJ)
+     00h     0004h     0004h    0001h      CODE               @@INT_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_IT.OBJ)
+     00h     0008h     0008h    0001h      CODE               @@TB0_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_IT.OBJ)
+     00h     000ch     000ch    0001h      CODE               @@TB1_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_IT.OBJ)
+     00h     0010h     0010h    0001h      CODE               @@Timer_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_IT.OBJ)
+     00h     0014h     0014h    0001h      CODE               @@EEPROM_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_IT.OBJ)
+     00h     0018h     0018h    0001h      CODE               @@ADC_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_IT.OBJ)
+     00h     0019h     0022h    000ah      CODE               __DELAY (D:\HT-IDE3000V7.x\LIB\MATH6.LIB)
+     00h     0023h     0030h    000eh      CODE               __DELAY (D:\HT-IDE3000V7.x\LIB\MATH6.LIB)
+     00h     0031h     0039h    0009h      CODE               @ADC_Init (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_ADC.OBJ)
+     00h     003ah     0064h    002bh      CODE               @ADC_SelectChannel (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_ADC.OBJ)
+     00h     0065h     0079h    0015h      CODE               @ADC_GetValue (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_ADC.OBJ)
+     00h     007ah     00b8h    003fh      CODE               @ADC_GetChannelValue (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_ADC.OBJ)
+     00h     00b9h     00cfh    0017h      CODE               @UART_SoftWareSendByte (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_SIMULATION_UART.OBJ)
+     00h     00d0h     00edh    001eh      CODE               @MAIN (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\MAIN.OBJ)
+     00h     0040h     0040h    0001h      DATA     6         CTMPDATA (D:\HT-IDE3000V7.x\LIB\MATH6.LIB)
+     00h     0049h     004ah    0002h      DATA     0         @g_nConversionValue (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\MAIN.OBJ)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0049h     0049h    0000h      LOCAL    0         @DUMMY (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\MAIN.OBJ)
+     00h     0047h     0048h    0002h      LOCAL    2         _main (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\MAIN.OBJ)
+     00h     0041h     0041h    0000h      LOCAL    0         _ADC_Init (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_ADC.OBJ)
+     00h     0041h     0042h    0002h      LOCAL    5         _ADC_SelectChannel (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_ADC.OBJ)
+     00h     0041h     0046h    0006h      LOCAL    2         _ADC_GetValue (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_ADC.OBJ)
+
+     Indepentent Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0041h     0047h    0007h      ILOCAL   3         _ADC_GetChannelValue (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_ADC.OBJ)
+     00h     0041h     0042h    0002h      ILOCAL   2.5       _UART_SoftWareSendByte (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\HT8_SIMULATION_UART.OBJ)
+     00h     0041h     0041h    0000h      ILOCAL   0         __DELAYX (D:\HT-IDE3000V7.x\LIB\MATH6.LIB)
+     00h     0041h     0041h    0000h      ILOCAL   0         __DELAYY (D:\HT-IDE3000V7.x\LIB\MATH6.LIB)
+
+     Public Symbols Information
+     Address            Public by Name
+     0041h              ADC_SelectChannel0
+     0040h              RH
+     007ah              _ADC_GetChannelValue
+     0065h              _ADC_GetValue
+     0031h              _ADC_Init
+     003ah              _ADC_SelectChannel
+     00b9h              _UART_SoftWareSendByte
+     001fh              __DELAYX0
+     001eh              __DELAYX1
+     001dh              __DELAYX2
+     001ch              __DELAYX3
+     001bh              __DELAYX4
+     001ah              __DELAYX5
+     0019h              __DELAYX6
+     0028h              __DELAYY0
+     0027h              __DELAYY1
+     0026h              __DELAYY2
+     0025h              __DELAYY3
+     0024h              __DELAYY4
+     0023h              __DELAYY5
+     0049h              _g_nConversionValue
+
+     Address            Public by Value
+     0019h              __DELAYX6
+     001ah              __DELAYX5
+     001bh              __DELAYX4
+     001ch              __DELAYX3
+     001dh              __DELAYX2
+     001eh              __DELAYX1
+     001fh              __DELAYX0
+     0023h              __DELAYY5
+     0024h              __DELAYY4
+     0025h              __DELAYY3
+     0026h              __DELAYY2
+     0027h              __DELAYY1
+     0028h              __DELAYY0
+     0031h              _ADC_Init
+     003ah              _ADC_SelectChannel
+     0040h              RH
+     0041h              ADC_SelectChannel0
+     0049h              _g_nConversionValue
+     0065h              _ADC_GetValue
+     007ah              _ADC_GetChannelValue
+     00b9h              _UART_SoftWareSendByte
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     0800h     00dfh    10%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0040h     000bh    17%
+     Total     0040h     000bh    17%
+
+Use Stack Count
+_UART_SoftWareSendByte: 0
+_main: 1
+
+Call Tree
+    _UART_SoftWareSendByte
+    @DUMMY
+        _main (0)
+            _ADC_Init (1)
+            _ADC_SelectChannel (1)
+            _ADC_GetValue (1)
+
+HLINK: Program entry point at section '@CODE' (address 0) of file 'F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\ADC\software_library_ADC_polling_example_V1.0_0307\Output\MAIN.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)

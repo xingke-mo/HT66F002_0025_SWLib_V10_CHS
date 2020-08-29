@@ -1,0 +1,88 @@
+
+Linker Version 8.7.7.181026
+Input Object File: F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\HT8_IT.OBJ
+Input Object File: F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\HT8_TIMEBASE.OBJ
+Input Object File: F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\MAIN.OBJ
+
+Input Library File: D:\HT-IDE3000V7.x\LIB\MATH6.LIB
+Input Library File: D:\HT-IDE3000V7.x\LIB\time_mrsc.lib
+Input Library File: D:\HT-IDE3000V7.x\LIB\ctype_mrsc.lib
+Input Library File: D:\HT-IDE3000V7.x\LIB\math_mrsc.lib
+Input Library File: D:\HT-IDE3000V7.x\LIB\stdlib_mrsc.lib
+Input Library File: D:\HT-IDE3000V7.x\LIB\string_mrsc.lib
+
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0000h     0002h    0003h      CODE               @CODE (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\MAIN.OBJ)
+     00h     0003h     0003h    0001h      CODE               STARTSEC (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\MAIN.OBJ)
+     00h     0004h     0004h    0001h      CODE               @@INT_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\HT8_IT.OBJ)
+     00h     0008h     0008h    0001h      CODE               @@TB0_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\HT8_IT.OBJ)
+     00h     000ch     000ch    0001h      CODE               @@TB1_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\HT8_IT.OBJ)
+     00h     0010h     0010h    0001h      CODE               @@Timer_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\HT8_IT.OBJ)
+     00h     0014h     0014h    0001h      CODE               @@EEPROM_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\HT8_IT.OBJ)
+     00h     0018h     0018h    0001h      CODE               @@ADC_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\HT8_IT.OBJ)
+     00h     0019h     0026h    000eh      CODE               __DELAY (D:\HT-IDE3000V7.x\LIB\MATH6.LIB)
+     00h     0027h     0030h    000ah      CODE               @TB0_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\HT8_IT.OBJ)
+     00h     0031h     0037h    0007h      CODE               @TimeBase_Init (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\HT8_TIMEBASE.OBJ)
+     00h     0038h     0045h    000eh      CODE               @MAIN (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\MAIN.OBJ)
+     00h     0040h     0042h    0003h      DATA     2         CTMPDATA (D:\HT-IDE3000V7.x\LIB\MATH6.LIB)
+
+     Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0043h     0043h    0000h      LOCAL    0         @DUMMY (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\MAIN.OBJ)
+     00h     0043h     0043h    0000h      LOCAL    0         _main (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\MAIN.OBJ)
+     00h     0043h     0043h    0000h      LOCAL    0         _TimeBase_Init (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\HT8_TIMEBASE.OBJ)
+
+     Indepentent Local Sections
+
+     Bank    Start     End      Length     Class    AvgIns    Name
+     00h     0043h     0043h    0000h      ILOCAL   0         _TB0_ISR (F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\HT8_IT.OBJ)
+     00h     0043h     0043h    0000h      ILOCAL   0         __DELAYY (D:\HT-IDE3000V7.x\LIB\MATH6.LIB)
+
+     Public Symbols Information
+     Address            Public by Name
+     0042h              RH
+     0040h              V2A
+     0041h              V2S
+     0031h              _TimeBase_Init
+     001eh              __DELAYY0
+     001dh              __DELAYY1
+     001ch              __DELAYY2
+     001bh              __DELAYY3
+     001ah              __DELAYY4
+     0019h              __DELAYY5
+
+     Address            Public by Value
+     0019h              __DELAYY5
+     001ah              __DELAYY4
+     001bh              __DELAYY3
+     001ch              __DELAYY2
+     001dh              __DELAYY1
+     001eh              __DELAYY0
+     0031h              _TimeBase_Init
+     0040h              V2A
+     0041h              V2S
+     0042h              RH
+
+
+ROM Usage Statistics
+     Size      Used     Percentage
+     0800h     0037h    2%
+
+RAM Usage Statistics
+    Bank      Size      Used     Percentage
+     00h       0040h     0003h    4%
+     Total     0040h     0003h    4%
+
+Use Stack Count
+_main: 1
+
+Call Tree
+    @DUMMY
+        _main (0)
+            _TimeBase_Init (1)
+
+HLINK: Program entry point at section '@CODE' (address 0) of file 'F:\2018-10-22 Software library(未)\第二階段\HT66F002_0025\example code\Timebase\software_library_TimeBase0_interrupt_example_V1.0_0307\Output\MAIN.OBJ'
+
+Total 0 error(s), Total 0 Warning(s)
